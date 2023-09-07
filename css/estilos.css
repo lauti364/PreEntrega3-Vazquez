@@ -1,10 +1,13 @@
 @charset "UTF-8";
+nav {
+  background-color: pink;
+  color: #555; }
+
 header {
+  background-color: pink;
   color: pink;
   padding: 10px;
   padding: 10px; }
-  header nav {
-    background-color:pink; }
   header nav ul {
     list-style: none;
     margin: 0;
@@ -121,12 +124,12 @@ body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: pink;
   margin: 0; }
 
 header {
   background-color: pink;
-  color: white;
+  color: pink;
   text-align: center;
   padding: 20px; }
 
@@ -201,3 +204,9 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px; }
+
+.lio {
+  background-color: pink; }
+
+.menu {
+  background-color: pink; }
