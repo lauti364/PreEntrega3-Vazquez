@@ -21,10 +21,7 @@ main {
   padding: 20px;
   max-width: 800px; }
 
-.lio {
-  display: flex;
-  background-color: pink;
-  color: #000000; }
+
 
 button {
   background-color: #333;
@@ -40,11 +37,11 @@ body {
   body image {
     width: 100%; }
 
-.fondoi {
-  width: 100%;
-  background-size: cover;
-  align-items: center;
-  height: 100%; }
+    .fondoi {
+      width: 100%;
+      background-size: cover;
+      align-items: center;
+      height: 100%; }
 
 .grafico {
   display: flex;
@@ -59,61 +56,58 @@ body {
   margin: 0px 5px;
   background-color: #f5a00c; }
 
-.g {
-  color: #f8c303; }
+
 
 /*reset*/
 .fondo {
   background-color: black; }
 
-.g {
-  color: #f8c303; }
+
 
 /*reset*/
 .fondo {
   background-color: black; }
 
-.g {
-  color: #f8c303; }
+
 
 /*reset*/
-body.galeria {
-  background-color: #000000;
-  align-items: center; }
 
-.galer {
-  background-color: #000000; }
+
+
 
 .img1 {
-  max-width: 100%;
+  width: 100%;
   padding-left: 100px; }
 
 .img2 {
-  max-width: 100%;
+  width: 100%;
   padding-left: 100px; }
 
 .img3 {
   text-align: center;
-  max-width: 100%;
+  width: 100%;
   padding-left: 100px; }
 
 .img4 {
   text-align: center;
-  max-width: 100%;
+  width: 100%;
   padding-left: 100px; }
 
 .img5 {
   text-align: center;
-  max-width: 100%;
+  width: 100%;
   padding-left: 100px; }
 
 .image {
   width: 100%; }
 
-.galeria {
+.fotos-galeria {
   display: grid;
-  grid-column: 1fr;
-  grid-template-rows: 1fr 1fr 1fr; }
+  grid-column:(1fr 1fr);
+  grid-template-rows: 1fr
+}
+
+  
 
 /*noticias  */
 /* reset */
@@ -122,10 +116,10 @@ body {
   background-color: #f0f0f0;
   margin: 0; }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: pink;
-  margin: 0; }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    margin: 0; }
 
 header {
   background-color: pink;
@@ -159,9 +153,8 @@ main {
   font-size: 1rem;
   color: #555; }
 
-footer {
+footer {margin-bottom: 0px;
   text-align: center;
-  padding: 10px;
   background-color: #333;
   color: white; }
 
@@ -205,8 +198,27 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px; }
 
-.lio {
-  background-color: pink; }
-
 .menu {
   background-color: pink; }
+
+.noticia{padding: 10px;margin: 10px;width: 100%;}
+.campo{margin: 10px;padding: 10px;}
+
+  .fotos-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+    .fotos-galeria img {
+      width: 100%;
+      height: 100%;
+      margin: 10px;padding: 80px;
+  }
+
+
+.fotos-galeria img {
+  width: 100%;
+  height: auto;
+}
+.formulario{padding: 10px;margin: 40px;align-items: center;align-items: center;}
+.descripcion{color: #000000;background-color:#ccc;}
+.footer-estadisticas{width: 100%;height: 100%;position: bottom 0;}
