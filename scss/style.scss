@@ -78,8 +78,13 @@ body {
 .img1 {
   width: 100%;
   padding-left: 100px;
+  perspective: 1000px;
 }
+  .img1:hover .texto-f1{opacity: 1;}
+  .img1:hover img{transform: rotateY('180deg');
+opacity: 0,2;filter: blur(10px);filter: grayscale(60%);}
 
+  .texto-f1{text-align: center;border-radius: 6px;position: absolute;top: 50%;}
 .img2 {
   width: 100%;
   padding-left: 100px;
@@ -111,6 +116,7 @@ body {
   display: grid;
   grid-column: 1fr 1fr;
   grid-template-rows: 1fr;
+  position: relative;
 }
 
 /* reset */

@@ -60,7 +60,19 @@ body {
 
 .img1 {
   width: 100%;
-  padding-left: 100px; }
+  padding-left: 100px;
+  perspective: 1000px; }
+
+.img1:hover .texto-f1 {
+  opacity: 1; }
+
+.img1:hover img {
+  transform: rotateY("180deg");
+  opacity: 0,2;
+  filter: blur(10px);
+  filter: grayscale(60%); }
+
+  .texto-f1{left: 50%;transform: translate(-50% -50%);opacity: 0;color: aliceblue;padding: 10px;top: 50%;position: absolute;border-radius: 6px;text-align: center;}
 
 .img2 {
   width: 100%;
@@ -87,7 +99,8 @@ body {
 .fotos-galeria {
   display: grid;
   grid-column: 1fr 1fr;
-  grid-template-rows: 1fr; }
+  grid-template-rows: 1fr;
+  position: relative; }
 
 /* reset */
 body {
