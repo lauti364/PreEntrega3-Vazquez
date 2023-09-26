@@ -1,11 +1,16 @@
-@import "utils/variables";
 //reset
+//utils
+@import "utils/variables";
 @import"utils/reset";
-@import"../scss/layout/header";
+@import"../scss/utils/mixin";
+//layout 
+@import"../scss/layout/main";
+@import"../scss/layout/footer";
+//paginas
 @import"../scss/index";
 @import"../scss/estadisticas";
-@import"../scss/layout/footer";
-@import"../scss/layout/main";
 @import"../scss/galeria";
 @import"../scss/noticias";
-@import"../scss/contacto"
+@import"../scss/contacto";
+//
+@import"../scss/layout/header";

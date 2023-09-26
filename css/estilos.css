@@ -2,23 +2,39 @@
   margin: 0;
   padding: 0; }
 
-header {
-  background-color: pink;
-  color: pink;
-  padding: 10px;
-  padding: 10px; }
-  header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; }
-    header nav ul li {
-      margin: 0 10px; }
+main {
+  background-color: #a13c5e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  color: white; }
+  main .img-index {
+    width: 100%; }
+  main h1 {
+    font-size: 36px;
+    margin-bottom: 10px; }
+  main h2 {
+    font-size: 24px;
+    margin-bottom: 20px; }
+  main p {
+    font-size: 18px;
+    line-height: 1.5; }
 
-nav {
+footer {
+  width: 100%;
   background-color: pink;
-  color: #555; }
+  color: #a13c5e;
+  margin-bottom: 10px;
+  padding: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0px; }
 
 /*reset*/
 .body-index {
@@ -73,40 +89,6 @@ body {
 
 main {
   width: 100%; }
-
-footer {
-  width: 100%;
-  background-color: pink;
-  color: #a13c5e;
-  margin-bottom: 10px;
-  padding: 0px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 0px; }
-
-main {
-  background-color: #a13c5e;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  padding: 50px;
-  color: white; }
-  main .img-index {
-    width: 100%; }
-  main h1 {
-    font-size: 36px;
-    margin-bottom: 10px; }
-  main h2 {
-    font-size: 24px;
-    margin-bottom: 20px; }
-  main p {
-    font-size: 18px;
-    line-height: 1.5; }
 
 .img1 :hover {
   transform: scale(1.05);
@@ -246,3 +228,20 @@ main {
   .informacion h2 {
     font-size: 1.5rem;
     margin-bottom: 10px; }
+
+header {
+  background-color: pink;
+  color: pink;
+  padding: 0px; }
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; }
+    header nav ul li {
+      margin: 0 10px; }
+
+nav {
+  background-color: pink;
+  color: #555; }
