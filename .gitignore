@@ -1,2 +1,5 @@
 # Ignora la carpeta node_modules
-node_modules
+*.map
+*.psd
+*.ai
+node_modules/
