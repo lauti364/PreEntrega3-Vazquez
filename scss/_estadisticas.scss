@@ -1,0 +1,18 @@
+@import "../scss/utils/variables";
+@import "../scss/utils/mixin";
+.grafico {width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #000000;
+    margin-top: 20px;
+  }
+  .image{width: 100%}
+  
+  .barra {width: 100%;
+    margin: 0px 5px;
+    background-color: rgb(142, 26, 45);
+  }
+
+  main{width: 100%;}
+  body{width: 100%;}main{width: 100%;}
