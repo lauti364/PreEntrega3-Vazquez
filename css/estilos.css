@@ -170,7 +170,7 @@ main {
   h2 {
     color: white; }
   img {
-    width: 100%; }
+    width: 90%; }
   .img5 {
     visibility: hidden; }
   /*fondo mobile*/
@@ -270,6 +270,8 @@ main {
   /* Evitar la repetición de la imagen */
   background-attachment: fixed;
   /* Fijar la imagen de fondo */ }
+  .body-noticias h2 {
+    color: black; }
 
 .formulario {
   background-color: white;
