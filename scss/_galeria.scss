@@ -1,24 +1,32 @@
 @import "../scss/utils/variables";
 @import "../scss/utils/mixin";
-
+.fotos-galeria
+{background-image: url(../Imagenes/fondopc1.jpeg); background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+  background-attachment: fixed; /* Fijar la imagen de fondo */}
 .img1 :hover{transform: scale(1.05);transition: 2s;}
 .img2 :hover{transform: scale(1.05);transition: 2s;}
 .img3 :hover{transform: scale(1.05);transition: 2s;}
 .img4 :hover{transform: scale(1.05);transition: 2s;}
 .img5 :hover{transform: scale(1.05);transition: 2s;}
-main{padding: 40px;}
+main{padding: 10px;}
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
     .img2 {padding: 20px;margin: 30px;
       };
     }
       /* Media Queries Mobile */
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 575px){h2{color: rgb(255, 0, 0);}
 img{width: 100%;}
     .img5 {
-      visibility: hidden;
-    }}
-     
+      visibility: hidden;}
+      /*fondo mobile*/
+       .fotos-galeria{background-image: url(../Imagenes/fondocelular.jpg); background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+        background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+        background-attachment: fixed; /* Fijar la imagen de fondo */}
+  }
+  /*fondo pc*/
+
     .galeria2 {
         display: flex;
         align-items: center;justify-content: center; 

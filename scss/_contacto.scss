@@ -37,3 +37,15 @@ margin-bottom: 15px;
             font-size: 1.5rem;
             margin-bottom: 10px;
           }}
+          contacto.html footer{padding: 0;}
+          
+          @media only screen and (max-width: 575px){.fondo-contacto{background-image: url(../Imagenes/fondomc.jpg); background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+            background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+            background-attachment: fixed; /* Fijar la imagen de fondo */}}
+        
+        
+        
+            .fondo-contacto{background-image: url(../Imagenes/fondoc.jpg); background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+            background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+            background-attachment: fixed; /* Fijar la imagen de fondo */}
+            .maps{width: 100%;}

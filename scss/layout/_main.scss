@@ -1,4 +1,4 @@
-main {background-color:rgb(161, 60, 94);
+main {background-color:rgb(27, 185, 199);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -6,7 +6,7 @@ main {background-color:rgb(161, 60, 94);
     margin: 0;
     width: 100%;
     text-align: center;
-    padding: 50px;
+    padding: 0px;
     color: rgb(255, 255, 255);
     .img-index{width: 100%;}  
     h1{   font-size: 36px;
@@ -19,3 +19,4 @@ main {background-color:rgb(161, 60, 94);
             line-height: 1.5;
         }
 }
+h2{color: rgb(0, 0, 0);}

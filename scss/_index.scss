@@ -3,22 +3,21 @@
 
 /*reset*/
 
- .body-index {background-color:rgb(161, 60, 94);
+ .body-index {background-image: url(../Imagenes/fondopcindex.jpeg); background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    background-attachment: fixed; /* Fijar la imagen de fondo */
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     text-align: center;
-    padding: 100px;
     color: rgb(255, 255, 255);
     .img-index{width: 100%;}  
     h1{   font-size: 36px;
-        margin-bottom: 10px;}h2 {
+        margin-bottom: 0px;}h2 {
             font-size: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
         }
         p {
             font-size: 18px;
@@ -31,3 +30,9 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+@media only screen and (max-width: 575px){
+/*fondo mobile*/
+
+.body-index{background-image: url(../Imagenes/fondoim.jpeg); background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+ background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+ background-attachment: fixed; /* Fijar la imagen de fondo */}}
